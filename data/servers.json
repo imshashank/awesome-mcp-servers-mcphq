@@ -2372,6 +2372,25 @@
     }
   },
   {
+    "name": "Screpy SEO MCP",
+    "url": "https://screpy.com/feature/seo-mcp/",
+    "description": "Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Screpy",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.screpy.com"
+    }
+  },
+  {
     "name": "API.market MCP Gateway",
     "url": "https://api.market/mcp",
     "description": "Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.",
