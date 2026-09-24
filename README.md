@@ -1,7 +1,7 @@
 # Awesome MCP Servers
 
 [![MCP](https://img.shields.io/badge/protocol-MCP-blue)](https://modelcontextprotocol.io)
-[![Servers](https://img.shields.io/badge/servers-159-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-162-brightgreen)](#catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A curated catalog of [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers for research, discovery, and integration planning.
@@ -34,7 +34,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (13)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (18)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (19)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (13)
 - [Filesystems and Documents](#filesystems-and-documents) (8)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (11)
@@ -43,7 +43,7 @@ See [landscape/README.md](landscape/README.md) for how the landscape is built an
 - [Data, Analytics, and BI](#data-analytics-and-bi) (12)
 - [Legal and Court Data](#legal-and-court-data) (1)
 - [Security and Identity](#security-and-identity) (8)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (17)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (19)
 - [Utilities and Examples](#utilities-and-examples) (11)
 
 <a id="official-and-reference"></a>
@@ -118,6 +118,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `harness` `cicd` `devops`
 - **[Agent QA](https://github.com/vostride/agent-qa)** `TypeScript` — Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.  
   `testing` `regression` `browser` `mobile` `mcp`
+- **[API.market MCP Gateway](https://api.market/mcp)** `Official` `TypeScript` — Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.  
+  `api` `gateway` `oauth` `hosted`
 - **[ax](https://github.com/Necmttn/ax)** `TypeScript` — Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs.  
   `observability` `coding-agents` `costs`
 - **[Constitution Lint MCP Server](https://github.com/joeyycli/constitution-lint-action)** `Python` — Lints CLAUDE.md-style AI agent constitution files for missing operational guardrails: spend limits, injection defense, escalation paths, and secrets handling.  
@@ -423,6 +425,10 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `payments` `billing` `fintech`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
+- **[Zovo E-commerce Suite](https://github.com/theluckystrike/mcp-e-commerce-suite)** `TypeScript` — Product catalog, pricing rules, and order management tools for e-commerce workflows; hosted Streamable HTTP endpoint available.  
+  `ecommerce` `catalog` `orders`
+- **[Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator)** `TypeScript` — Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.  
+  `invoice` `billing` `pdf`
 - **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
   `invoice` `pdf` `billing` `bookkeeping` `finance`
 
